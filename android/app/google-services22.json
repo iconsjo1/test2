@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "619580708424",
+    "project_id": "udhgallary",
+    "storage_bucket": "udhgallary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619580708424:android:be501f3ba12d6939466a7d",
+        "android_client_info": {
+          "package_name": "com.united_doctors_hospital_udh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619580708424-gflnln8skgleag6kdkk21e1a4g0o5gqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwCLZTZZzXjfVrhnQyujnazJz7pDaMaLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619580708424-gflnln8skgleag6kdkk21e1a4g0o5gqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "619580708424-85252cf2o98mohqk3d9j6pfmch2ddgt6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.united-doctors-hospital-udh"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

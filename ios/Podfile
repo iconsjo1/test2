@@ -1,0 +1,112 @@
+platform :ios, '11.0'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+project './united_doctors_hospital.xcodeproj'
+target 'united_doctors_hospital' do
+  # Pods for united_doctors_hospital
+  pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
+  pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
+  pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
+  pod 'RCTTypeSafety', :path => "../node_modules/react-native/Libraries/TypeSafety"
+  pod 'React', :path => '../node_modules/react-native/'
+  pod 'React-Core', :path => '../node_modules/react-native/'
+  pod 'React-CoreModules', :path => '../node_modules/react-native/React/CoreModules'
+  pod 'React-Core/DevSupport', :path => '../node_modules/react-native/'
+  pod 'React-RCTActionSheet', :path => '../node_modules/react-native/Libraries/ActionSheetIOS'
+  pod 'React-RCTAnimation', :path => '../node_modules/react-native/Libraries/NativeAnimation'
+  pod 'React-RCTBlob', :path => '../node_modules/react-native/Libraries/Blob'
+  pod 'React-RCTImage', :path => '../node_modules/react-native/Libraries/Image'
+  pod 'React-RCTLinking', :path => '../node_modules/react-native/Libraries/LinkingIOS'
+  pod 'React-RCTNetwork', :path => '../node_modules/react-native/Libraries/Network'
+  pod 'React-RCTSettings', :path => '../node_modules/react-native/Libraries/Settings'
+  pod 'React-RCTText', :path => '../node_modules/react-native/Libraries/Text'
+  pod 'React-RCTVibration', :path => '../node_modules/react-native/Libraries/Vibration'
+  pod 'React-Core/RCTWebSocket', :path => '../node_modules/react-native/'
+
+  pod 'React-cxxreact', :path => '../node_modules/react-native/ReactCommon/cxxreact'
+  pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
+  pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
+  pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
+  pod 'ReactCommon/jscallinvoker', :path => "../node_modules/react-native/ReactCommon"
+  pod 'ReactCommon/turbomodule/core', :path => "../node_modules/react-native/ReactCommon"
+  pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod 'CodePush', :path => '../node_modules/react-native-code-push'
+  # pod 'RNPhotoEditor', :path => '../node_modules/react-native-photo-editor/ios'
+  pod 'iOSPhotoEditor', :git => 'https://github.com/prscX/photo-editor', :branch => 'master'
+
+#   post_install do |installer|
+#     ## Fix for XCode 12.5
+#     find_and_replace("../node_modules/react-native/React/CxxBridge/RCTCxxBridge.mm",
+#     "_initializeModules:(NSArray<id<RCTBridgeModule>> *)modules", "_initializeModules:(NSArray<Class> *)modules")
+#     find_and_replace("../node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm",
+#         "RCTBridgeModuleNameForClass(module))", "RCTBridgeModuleNameForClass(Class(module)))")
+# end
+
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+  post_install do |installer|
+    find_and_replace("../node_modules/react-native/React/CxxBridge/RCTCxxBridge.mm",
+    "_initializeModules:(NSArray<id<RCTBridgeModule>> *)modules", "_initializeModules:(NSArray<Class> *)modules")
+    find_and_replace("../node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm",
+        "RCTBridgeModuleNameForClass(module))", "RCTBridgeModuleNameForClass(Class(module)))")
+    installer.pods_project.targets.each do |target|
+      if target.name.include?('iOSPhotoEditor')
+        target.build_configurations.each do |config|
+          config.build_settings['SWIFT_VERSION'] = '5'
+        end
+      end
+    end
+  end
+
+
+  # Follow [Flipper iOS Setup Guidelines](https://fbflipper.com/docs/getting-started/ios-native)
+  # This is required because iOSPhotoEditor is implemented using Swift and we have to use use_frameworks! in Podfile
+  $static_framework = ['FlipperKit', 'Flipper', 'Flipper-Folly',
+    'CocoaAsyncSocket', 'ComponentKit', 'Flipper-DoubleConversion',
+    'Flipper-Glog', 'Flipper-PeerTalk', 'Flipper-RSocket', 'Yoga', 'YogaKit',
+    'CocoaLibEvent', 'OpenSSL-Universal', 'boost-for-react-native']
+ 
+  # target 'united_doctors_hospitalTests' do
+  #   inherit! :search_paths
+  #   # Pods for testing
+  # end
+
+  use_native_modules!
+end
+
+# target 'united_doctors_hospital-tvOS' do
+#   # Pods for united_doctors_hospital-tvOS
+
+#   target 'united_doctors_hospital-tvOSTests' do
+#     inherit! :search_paths
+#     # Pods for testing
+#   end
+
+# end
+
+pre_install do |installer|
+  Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+  installer.pod_targets.each do |pod|
+      if $static_framework.include?(pod.name)
+        def pod.build_type;
+          Pod::BuildType.static_library
+        end
+      end
+    end
+end
+
+def find_and_replace(dir, findstr, replacestr)
+  Dir[dir].each do |name|
+      text = File.read(name)
+      replace = text.gsub(findstr,replacestr)
+      if text != replace
+          puts "Fix: " + name
+          File.open(name, "w") { |file| file.puts replace }
+          STDOUT.flush
+      end
+  end
+  Dir[dir + '*/'].each(&method(:find_and_replace))
+end

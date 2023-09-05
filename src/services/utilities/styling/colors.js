@@ -1,0 +1,90 @@
+import AsyncStorage from '@react-native-community/async-storage';
+import {themeName} from '../..';
+
+const lightTheme = {
+  whiteBg: '#F8F8F8',
+  whiteAbsolute: '#FFFFFF',
+  white: '#FFFFFF',
+  red: '#c02f2f',
+  black: '#000000',
+  lightGrey: '#DDDDDD',
+  mediumGrey: '#666666',
+  mediumLightGrey: '#CCCCCC',
+  extraLightGrey: '#E7E7E7',
+  grey: '#999999',
+  bgColor: '#FAFAFA',
+  primary: '#3094E8',
+  link: '#24408E',
+  orange: '#EB8C43',
+  darkGrey: '#444444',
+  skyBlue: '#1DA1F2',
+  info: '#DEAB06',
+  success: '#22BF80',
+  danger: '#FF2121',
+  skyBlueDark: '#01579e',
+  green: '#0BAC6C',
+  greens: '#28d094',
+  secondary: '#DC3333',
+  btnColor: '#FFFFFF',
+  greenDark: '#006734',
+  secondary: '#DC3333',
+  golden: '#DAA520',
+  modalBackDrop: '#444444',
+  greyishWhite: '#F7F8FA',
+  lightBlue: '#B0D5F4',
+  extraLightBlue: '#E2E9F9',
+  lightGreen: '#E2F9E3',
+  lightGold: '#F9F6E2',
+  darkBlue: '#00355D',
+  darkGold: '#9F6F0F',
+  vibrantBlue: '#2763E8',
+  crimson: '#5D0300',
+  mintGreen: '#0F9F19',
+};
+
+const darkTheme = {
+  whiteBg: '#111111',
+  whiteAbsolute: '#FFFFFF',
+  white: '#000000',
+  red: '#c02f2f',
+  black: '#FFFFFF',
+  lightGrey: '#444444',
+  mediumLightGrey: '#333333',
+  extraLightGrey: '#222222',
+  mediumGrey: '#AAAAAA',
+  grey: '#999999',
+  link: '#657fc7',
+  primary: '#3094E8',
+  darkGrey: '#DDDDDD',
+  btnColor: '#FFFFFF',
+  info: '#DEAB06',
+  success: '#22BF80',
+  danger: '#FF2121',
+  skyBlue: '#3094E8',
+  skyBlueDark: '#326fa2',
+  orange: '#EB8C43',
+  green: '#0BAC6C',
+  greenDark: '#2e8d5e',
+  secondary: '#DC3333',
+  golden: '#DAA520',
+  modalBackDrop: '#444444',
+  greyishWhite: '#2B2B2B',
+  lightBlue: '#B0D5F4',
+  extraLightBlue: '#E2E9F9',
+  lightGreen: '#E2F9E3',
+  lightGold: '#F9F6E2',
+  darkBlue: '#00355D',
+  darkGold: '#9F6F0F',
+  vibrantBlue: '#2763E8',
+  crimson: '#5D0300',
+  mintGreen: '#0F9F19',
+};
+
+let colors = lightTheme;
+
+const setColors = (theme) => {
+  AsyncStorage.setItem(themeName, theme);
+  colors = theme === 'light' ? lightTheme : darkTheme;
+};
+
+export {colors, setColors};

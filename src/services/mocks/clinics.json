@@ -1,0 +1,105 @@
+{
+    "Clinics": [
+        {
+            "A_NAME": "نساء و ولادة",
+            "CODE": "OB      ",
+            "E_NAME": "OBSTETRIC & GYNECOLOGY"
+        },
+        {
+            "A_NAME": "مسالك بولية",
+            "CODE": "UR      ",
+            "E_NAME": "UROLOGIST"
+        },
+        {
+            "A_NAME": "عيون",
+            "CODE": "OP      ",
+            "E_NAME": "OPHTHALMOLOGIST"
+        },
+        {
+            "A_NAME": "علاج طبيعي",
+            "CODE": "PT      ",
+            "E_NAME": "PHYSIOTHERAPIST"
+        },
+        {
+            "A_NAME": "عظام",
+            "CODE": "OR      ",
+            "E_NAME": "ORTHOPEDIC"
+        },
+        {
+            "A_NAME": "طبيب طوارئ",
+            "CODE": "ER      ",
+            "E_NAME": "EMERGENCY PHYSICIAN"
+        },
+        {
+            "A_NAME": "جلدية و تناسلية",
+            "CODE": "DM      ",
+            "E_NAME": "DERMATOLOGIST"
+        },
+        {
+            "A_NAME": "جراحة مخ وأعصاب",
+            "CODE": "NS      ",
+            "E_NAME": "NEURO SURGERY"
+        },
+        {
+            "A_NAME": "جراحة عامة",
+            "CODE": "GS      ",
+            "E_NAME": "GENERAL SURGEON"
+        },
+        {
+            "A_NAME": "جراحة أطفال",
+            "CODE": "PDS     ",
+            "E_NAME": "PEDIATRIC SURGEON"
+        },
+        {
+            "A_NAME": "انف وأذن وحنجره",
+            "CODE": "EN      ",
+            "E_NAME": "E.N.T."
+        },
+        {
+            "A_NAME": "امراض صدريه",
+            "CODE": "CH      ",
+            "E_NAME": "CHEST PHYSICIAN"
+        },
+        {
+            "A_NAME": "امراض الجهاز الهضمي",
+            "CODE": "GE      ",
+            "E_NAME": "GASTROENTEROLOGY"
+        },
+        {
+            "A_NAME": "أمراض قلب",
+            "CODE": "CG      ",
+            "E_NAME": "CARDIOLOGIST"
+        },
+        {
+            "A_NAME": "أمراض عصبية",
+            "CODE": "NU      ",
+            "E_NAME": "NEUROLOGIST"
+        },
+        {
+            "A_NAME": "أمراض روماتيزمية",
+            "CODE": "RH      ",
+            "E_NAME": "RHEUMATOLOGIST"
+        },
+        {
+            "A_NAME": "أمراض باطنية",
+            "CODE": "IM      ",
+            "E_NAME": "INTERNIST"
+        },
+        {
+            "A_NAME": "أمراض الكلى",
+            "CODE": "NP      ",
+            "E_NAME": "NEPHROLOGIST"
+        },
+        {
+            "A_NAME": "أطفال",
+            "CODE": "PD      ",
+            "E_NAME": "PEDIATRICIAN"
+        },
+        {
+            "A_NAME": "أسنان",
+            "CODE": "DT      ",
+            "E_NAME": "DENTIST"
+        }
+    ],
+    "Count": 20
+}

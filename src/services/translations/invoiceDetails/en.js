@@ -1,0 +1,15 @@
+export const invoiceDetailsTranslations = {
+  invoices: 'Invoices',
+  helpTxt: 'Please, Insert your informations below',
+  mrnNo: 'MRN Number',
+  mrnNumberPh: 'Enter your Medical Record Number',
+  phone: 'Mobile Number',
+  phonePh: 'Enter your phone number',
+  invoiceNumber: 'Invoice Number',
+  invoiceNumberPh: 'Enter your Invoice No',
+  submit: 'Submit',
+  mrnErr: 'MRN is Required',
+  invoiceNoErr: 'Invoice Number is Required',
+  or: 'OR',
+  twoFieldsErr: 'Please, Enter only one of the inputs',
+};

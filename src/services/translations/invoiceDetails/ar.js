@@ -1,0 +1,17 @@
+export const invoiceDetailsTranslations = {
+  invoices: 'الفواتير',
+  helpTxt: 'من فضلك ادخل بياناتك ادناه',
+  mrnNo: 'رقم الملف الطبي',
+  mrnNumberPh: 'أدخل رقم الملف الطبي',
+  // phone:"Mobile Number",
+  phone: 'رقم الهاتف',
+  // phonePh: "Enter your phone number",
+  phonePh: 'ادخل رقم الهاتف',
+  invoiceNumber: 'رقم الفاتورة',
+  invoiceNumberPh: 'أدخل رقم الفاتورة',
+  submit: 'إرسال',
+  mrnErr: 'من فضلك أدخل رقم الملف الطبي',
+  invoiceNoErr: 'من فضلك أدخل رقم الفاتورة',
+  or: 'أو',
+  twoFieldsErr: 'من فضلك أدخل رقم الفاتورة أو الملف الطبي',
+};

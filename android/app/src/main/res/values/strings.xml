@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">United Doctors Hospital</string>
+    <string name="default_notification_channel_id">appointments-channel</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">9FMan-d5WlL1aXkOHZm_lgAMGyXSuFJ4eGoqK</string>
+</resources>
+<!-- // stagging key QBt8Ron-DEwjrC_w9__ZYfyz9COB6Ur-YBEF6 -->
+<!-- // production key S1pIXF-pVxAynk9m_8hxrefXsRUT7JYmrhs4W -->

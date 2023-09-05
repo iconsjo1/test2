@@ -1,0 +1,15 @@
+export const selectPaymentTypeTranslations = {
+  payment: 'Payment',
+  servicePrice: 'Service Price',
+  sar: 'SAR',
+  visit: '/ Visit',
+  tax: "Tax is included when it's applicable",
+  credit: 'Credit Card',
+  googlePay: 'Google Pay',
+  applePay: 'Apple Pay',
+  selectCard: 'Select Card',
+  changeCard: 'Change',
+  addCard: 'Add Card',
+  payBtn: 'Pay & Send Request',
+  payBtnDisable: 'Please Select Credit Card',
+};

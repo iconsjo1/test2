@@ -1,0 +1,956 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0869A730AAD14FF8A5179B32 /* Almarai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 239E96D39D274982B2985A0C /* Almarai-Bold.ttf */; };
+		08D637B131874027BC132B60 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E241F51CDB2E4AA0A07ABDC4 /* Quicksand-Light.ttf */; };
+		118679155CBD4148B2E066F0 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4310BCC61A241F18C5758DB /* Rubik-MediumItalic.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		17FDD1113E5341A6B35AF01F /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C602D25D176463A94451437 /* Quicksand-SemiBold.ttf */; };
+		1A9E5860680B46B88457C219 /* Tajawal-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8085D2CE18AE487A9F3FA8E5 /* Tajawal-Light.ttf */; };
+		227C46B167144D569C2CD4EC /* Almarai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 333F5483D6FB42C8BC94D7AA /* Almarai-Light.ttf */; };
+		4B7F10D3272A445F8D67FF28 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C479D966EB2644F391C6E2F5 /* Rubik-Italic.ttf */; };
+		4BC485D0206946AAB8B17207 /* Tajawal-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F64635DDAF3B4579B7F44EBE /* Tajawal-ExtraBold.ttf */; };
+		52C73B17268C1C3C00999BE2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C73B16268C1C3C00999BE2 /* File.swift */; };
+		5B2C0C3202024F2D89774630 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF6D28CB994B869A97218E /* Rubik-Black.ttf */; };
+		651CA6D6280C4263AA90F3EB /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62836CBAE0B24DA5AC5D3A3F /* Quicksand-Regular.ttf */; };
+		69010A3BA28978A7926C30BF /* libPods-united_doctors_hospital.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF96CA99F629EE8D8A1550D /* libPods-united_doctors_hospital.a */; };
+		6CFA37BBAA2144609DFF0529 /* Tajawal-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3FC8BB6BC8343B3A7453669 /* Tajawal-Black.ttf */; };
+		703B2BAB61CB46A9B407C751 /* Almarai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C037F1C1484640A2AAFF347C /* Almarai-Regular.ttf */; };
+		74B1C738CADA4500AA556C7D /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5A1FECAF3F44D46825898FF /* Quicksand-Bold.ttf */; };
+		7A7D328CA86345C39D3027CC /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62DFCBBF2B254CE68DCBCA2C /* Rubik-Medium.ttf */; };
+		7ABE840B520C4A61B27E01A8 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F282DEB169145A2BC92DE9D /* Rubik-BoldItalic.ttf */; };
+		7B3583C2F4C449EB991EC3D6 /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5BE09A742B2477FAF6A1BB3 /* Tajawal-Medium.ttf */; };
+		8938513235544EDFA771A676 /* Tajawal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3227B4DBBBD645999B33FF2C /* Tajawal-Regular.ttf */; };
+		96DC0FC0B481460FA1D3C386 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDA0C483B0CC425D86829D40 /* Quicksand-Medium.ttf */; };
+		9945ECEF9C8F4DEE83E5F389 /* Tajawal-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C25F9E7B54527B778F7B1 /* Tajawal-ExtraLight.ttf */; };
+		9A569F77FD5B4309B2CDA8AB /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11BE6D76E5964E98BE136BED /* Rubik-LightItalic.ttf */; };
+		A90E15BE5B8F4B46920A501C /* Almarai-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7960FFE6CB340BCB4479BED /* Almarai-ExtraBold.ttf */; };
+		B81457404FE947559760E172 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F2D8A2E5DC419F891EE99D /* Rubik-BlackItalic.ttf */; };
+		B994C6587B93486691F592A4 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C80BF86A8744ED9CC8710D /* Rubik-Bold.ttf */; };
+		BF63BC25002345459D0C6B3C /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEDB6836B40D4C1C9FEA70F2 /* Tajawal-Bold.ttf */; };
+		E2624C9C2694F2A900475ED6 /* baby2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C742694F2A800475ED6 /* baby2.png */; };
+		E2624C9D2694F2A900475ED6 /* baby8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2624C752694F2A800475ED6 /* baby8.jpg */; };
+		E2624C9E2694F2A900475ED6 /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C762694F2A800475ED6 /* r.png */; };
+		E2624C9F2694F2A900475ED6 /* i.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C772694F2A800475ED6 /* i.png */; };
+		E2624CA02694F2A900475ED6 /* s.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C782694F2A800475ED6 /* s.png */; };
+		E2624CA12694F2A900475ED6 /* baby6.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C792694F2A800475ED6 /* baby6.png */; };
+		E2624CA22694F2A900475ED6 /* baby3.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C7A2694F2A800475ED6 /* baby3.png */; };
+		E2624CA32694F2A900475ED6 /* baby15.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C7B2694F2A800475ED6 /* baby15.png */; };
+		E2624CA42694F2A900475ED6 /* w.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C7C2694F2A800475ED6 /* w.png */; };
+		E2624CA52694F2A900475ED6 /* t.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C7D2694F2A800475ED6 /* t.png */; };
+		E2624CA62694F2A900475ED6 /* baby5.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C7E2694F2A800475ED6 /* baby5.png */; };
+		E2624CA72694F2A900475ED6 /* l.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C7F2694F2A800475ED6 /* l.png */; };
+		E2624CA82694F2A900475ED6 /* baby14.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C802694F2A800475ED6 /* baby14.png */; };
+		E2624CA92694F2A900475ED6 /* j.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C812694F2A800475ED6 /* j.png */; };
+		E2624CAA2694F2A900475ED6 /* baby12.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C822694F2A800475ED6 /* baby12.png */; };
+		E2624CAB2694F2A900475ED6 /* baby7.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C832694F2A800475ED6 /* baby7.png */; };
+		E2624CAC2694F2A900475ED6 /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C842694F2A800475ED6 /* c.png */; };
+		E2624CAD2694F2A900475ED6 /* bb.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C852694F2A900475ED6 /* bb.png */; };
+		E2624CAE2694F2A900475ED6 /* k.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C862694F2A900475ED6 /* k.png */; };
+		E2624CAF2694F2A900475ED6 /* baby1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C872694F2A900475ED6 /* baby1.png */; };
+		E2624CB02694F2A900475ED6 /* baby16.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C882694F2A900475ED6 /* baby16.png */; };
+		E2624CB12694F2A900475ED6 /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C892694F2A900475ED6 /* m.png */; };
+		E2624CB22694F2A900475ED6 /* n.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C8A2694F2A900475ED6 /* n.png */; };
+		E2624CB32694F2A900475ED6 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C8B2694F2A900475ED6 /* o.png */; };
+		E2624CB42694F2A900475ED6 /* q.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C8C2694F2A900475ED6 /* q.png */; };
+		E2624CB52694F2A900475ED6 /* z.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C8D2694F2A900475ED6 /* z.png */; };
+		E2624CB62694F2A900475ED6 /* baby11.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C8E2694F2A900475ED6 /* baby11.png */; };
+		E2624CB72694F2A900475ED6 /* baby4.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C8F2694F2A900475ED6 /* baby4.png */; };
+		E2624CB82694F2A900475ED6 /* v.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C902694F2A900475ED6 /* v.png */; };
+		E2624CB92694F2A900475ED6 /* e.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C912694F2A900475ED6 /* e.png */; };
+		E2624CBA2694F2A900475ED6 /* dd.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C922694F2A900475ED6 /* dd.png */; };
+		E2624CBB2694F2A900475ED6 /* u.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C932694F2A900475ED6 /* u.png */; };
+		E2624CBC2694F2A900475ED6 /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C942694F2A900475ED6 /* aa.png */; };
+		E2624CBD2694F2A900475ED6 /* cc.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C952694F2A900475ED6 /* cc.png */; };
+		E2624CBE2694F2A900475ED6 /* ee.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C962694F2A900475ED6 /* ee.png */; };
+		E2624CBF2694F2A900475ED6 /* p.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C972694F2A900475ED6 /* p.png */; };
+		E2624CC02694F2A900475ED6 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C982694F2A900475ED6 /* x.png */; };
+		E2624CC12694F2A900475ED6 /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C992694F2A900475ED6 /* d.png */; };
+		E2624CC22694F2A900475ED6 /* y.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C9A2694F2A900475ED6 /* y.png */; };
+		E2624CC32694F2A900475ED6 /* baby13.png in Resources */ = {isa = PBXBuildFile; fileRef = E2624C9B2694F2A900475ED6 /* baby13.png */; };
+		E2BA73AD26DBB945004EF3FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2BA73AC26DBB945004EF3FD /* GoogleService-Info.plist */; };
+		E7F90FB023584F989C778C4D /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D35F55DA9DF54AEBA136CA4E /* Rubik-Light.ttf */; };
+		EE06DB48E2E74EDAA9914330 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1BFA4E82F1149CB8B9869A0 /* Rubik-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		004699C73037470BAE241EAB /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* united_doctors_hospitalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = united_doctors_hospitalTests.m; sourceTree = "<group>"; };
+		024D31781944F78C3850BA74 /* Pods-united_doctors_hospital-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-united_doctors_hospital-tvOS.release.xcconfig"; path = "Target Support Files/Pods-united_doctors_hospital-tvOS/Pods-united_doctors_hospital-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		0CF96CA99F629EE8D8A1550D /* libPods-united_doctors_hospital.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-united_doctors_hospital.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2AAB44B141462EB1B68964 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		11BE6D76E5964E98BE136BED /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-LightItalic.ttf"; path = "../src/assets/fonts/Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* united_doctors_hospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = united_doctors_hospital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = united_doctors_hospital/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = united_doctors_hospital/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = united_doctors_hospital/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = united_doctors_hospital/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = united_doctors_hospital/main.m; sourceTree = "<group>"; };
+		18C96CA8174756E267B79D9A /* Pods-united_doctors_hospitalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-united_doctors_hospitalTests.debug.xcconfig"; path = "Target Support Files/Pods-united_doctors_hospitalTests/Pods-united_doctors_hospitalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B304ECDE10B495B84201312 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		1C1EAF648D0944E2949CBD0A /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		2189B1E59550DC49988EED6D /* Pods-united_doctors_hospital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-united_doctors_hospital.debug.xcconfig"; path = "Target Support Files/Pods-united_doctors_hospital/Pods-united_doctors_hospital.debug.xcconfig"; sourceTree = "<group>"; };
+		227B25F43B154FCFBD4A23B2 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		239E96D39D274982B2985A0C /* Almarai-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Almarai-Bold.ttf"; path = "../src/assets/fonts/Almarai-Bold.ttf"; sourceTree = "<group>"; };
+		2B647CF3743C43D3AD8DE5A4 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		2C602D25D176463A94451437 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-SemiBold.ttf"; path = "../src/assets/fonts/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		3227B4DBBBD645999B33FF2C /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Regular.ttf"; path = "../src/assets/fonts/Tajawal-Regular.ttf"; sourceTree = "<group>"; };
+		333F5483D6FB42C8BC94D7AA /* Almarai-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Almarai-Light.ttf"; path = "../src/assets/fonts/Almarai-Light.ttf"; sourceTree = "<group>"; };
+		34C09BCAB3D64C6FAA2912D4 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		397526151DE34CBFB9FCCA3F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		3F9C25F9E7B54527B778F7B1 /* Tajawal-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-ExtraLight.ttf"; path = "../src/assets/fonts/Tajawal-ExtraLight.ttf"; sourceTree = "<group>"; };
+		44A2E40E973D49E19A6233CE /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		47C80BF86A8744ED9CC8710D /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../src/assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		4A28CFF9C8E77FEFE8794256 /* libPods-united_doctors_hospital-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-united_doctors_hospital-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7DB795F3B2DF66D519582F /* libPods-united_doctors_hospital-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-united_doctors_hospital-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52901234BC8D43A09C9A5019 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		52C73B15268C1C3C00999BE2 /* united_doctors_hospital-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "united_doctors_hospital-Bridging-Header.h"; sourceTree = "<group>"; };
+		52C73B16268C1C3C00999BE2 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5314BE82ED01415CB0B8390E /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		57F2D8A2E5DC419F891EE99D /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BlackItalic.ttf"; path = "../src/assets/fonts/Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		590F9987732A46A8A3F9ACAD /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		5F0165E59FD1E6EC4D4DE457 /* Pods-united_doctors_hospital-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-united_doctors_hospital-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-united_doctors_hospital-tvOSTests/Pods-united_doctors_hospital-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6001CCA26BB04A78AC7A078D /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		618E3A2C35144B28B21FF846 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		62836CBAE0B24DA5AC5D3A3F /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Regular.ttf"; path = "../src/assets/fonts/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		62DFCBBF2B254CE68DCBCA2C /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../src/assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		63EA38C812D944BD812BD780 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		6827AF1D991346D3987DE1E0 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		70FB298E44204459BC7EAEBD /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		776846AE2F1E4CD681E83116 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		7DBC9E63A0BF4087A46FF65A /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		7F282DEB169145A2BC92DE9D /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BoldItalic.ttf"; path = "../src/assets/fonts/Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8085D2CE18AE487A9F3FA8E5 /* Tajawal-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Light.ttf"; path = "../src/assets/fonts/Tajawal-Light.ttf"; sourceTree = "<group>"; };
+		81DF6D28CB994B869A97218E /* Rubik-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Black.ttf"; path = "../src/assets/fonts/Rubik-Black.ttf"; sourceTree = "<group>"; };
+		8B7FC305B1EA42938404EB58 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		8D32E1E77FA54886AE6F4FCA /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		9116641F5A814ACE99BEEF24 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		96D7F98A1B4015885D26987F /* Pods-united_doctors_hospital-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-united_doctors_hospital-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-united_doctors_hospital-tvOS/Pods-united_doctors_hospital-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9DB3F380B3774CF9AAFCB695 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		9E751E3B3F0B45CDB7BE9BD9 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		9F3E95C7BB09435F8B0DAC9A /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		A03926F917FD42A1A344EC86 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		A14BFC7DA975D398856B9D35 /* Pods-united_doctors_hospital-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-united_doctors_hospital-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-united_doctors_hospital-tvOSTests/Pods-united_doctors_hospital-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A41B0C9747BF4C9C93794D93 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		AFC8310FB91D47738F74BD04 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		B96E6F58FF0E2750B10C9B19 /* Pods-united_doctors_hospital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-united_doctors_hospital.release.xcconfig"; path = "Target Support Files/Pods-united_doctors_hospital/Pods-united_doctors_hospital.release.xcconfig"; sourceTree = "<group>"; };
+		C037F1C1484640A2AAFF347C /* Almarai-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Almarai-Regular.ttf"; path = "../src/assets/fonts/Almarai-Regular.ttf"; sourceTree = "<group>"; };
+		C479D966EB2644F391C6E2F5 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic.ttf"; path = "../src/assets/fonts/Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		C5BE09A742B2477FAF6A1BB3 /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Medium.ttf"; path = "../src/assets/fonts/Tajawal-Medium.ttf"; sourceTree = "<group>"; };
+		C9293975F04445F682280161 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		CEDB6836B40D4C1C9FEA70F2 /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Bold.ttf"; path = "../src/assets/fonts/Tajawal-Bold.ttf"; sourceTree = "<group>"; };
+		CFBEE1A1238C4574B89CE473 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		D35F55DA9DF54AEBA136CA4E /* Rubik-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Light.ttf"; path = "../src/assets/fonts/Rubik-Light.ttf"; sourceTree = "<group>"; };
+		D7960FFE6CB340BCB4479BED /* Almarai-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Almarai-ExtraBold.ttf"; path = "../src/assets/fonts/Almarai-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DB2E252D2394493AA4A92A1B /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		E032F1AED83049E6AD255186 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		E215934626CEFF3F00C7227F /* united_doctors_hospital.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = united_doctors_hospital.entitlements; path = united_doctors_hospital/united_doctors_hospital.entitlements; sourceTree = "<group>"; };
+		E241F51CDB2E4AA0A07ABDC4 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Light.ttf"; path = "../src/assets/fonts/Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		E2624C742694F2A800475ED6 /* baby2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby2.png; path = ../src/assets/stickers/baby2.png; sourceTree = "<group>"; };
+		E2624C752694F2A800475ED6 /* baby8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = baby8.jpg; path = ../src/assets/stickers/baby8.jpg; sourceTree = "<group>"; };
+		E2624C762694F2A800475ED6 /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = r.png; path = ../src/assets/stickers/r.png; sourceTree = "<group>"; };
+		E2624C772694F2A800475ED6 /* i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = i.png; path = ../src/assets/stickers/i.png; sourceTree = "<group>"; };
+		E2624C782694F2A800475ED6 /* s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = s.png; path = ../src/assets/stickers/s.png; sourceTree = "<group>"; };
+		E2624C792694F2A800475ED6 /* baby6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby6.png; path = ../src/assets/stickers/baby6.png; sourceTree = "<group>"; };
+		E2624C7A2694F2A800475ED6 /* baby3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby3.png; path = ../src/assets/stickers/baby3.png; sourceTree = "<group>"; };
+		E2624C7B2694F2A800475ED6 /* baby15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby15.png; path = ../src/assets/stickers/baby15.png; sourceTree = "<group>"; };
+		E2624C7C2694F2A800475ED6 /* w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = w.png; path = ../src/assets/stickers/w.png; sourceTree = "<group>"; };
+		E2624C7D2694F2A800475ED6 /* t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t.png; path = ../src/assets/stickers/t.png; sourceTree = "<group>"; };
+		E2624C7E2694F2A800475ED6 /* baby5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby5.png; path = ../src/assets/stickers/baby5.png; sourceTree = "<group>"; };
+		E2624C7F2694F2A800475ED6 /* l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = l.png; path = ../src/assets/stickers/l.png; sourceTree = "<group>"; };
+		E2624C802694F2A800475ED6 /* baby14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby14.png; path = ../src/assets/stickers/baby14.png; sourceTree = "<group>"; };
+		E2624C812694F2A800475ED6 /* j.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = j.png; path = ../src/assets/stickers/j.png; sourceTree = "<group>"; };
+		E2624C822694F2A800475ED6 /* baby12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby12.png; path = ../src/assets/stickers/baby12.png; sourceTree = "<group>"; };
+		E2624C832694F2A800475ED6 /* baby7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby7.png; path = ../src/assets/stickers/baby7.png; sourceTree = "<group>"; };
+		E2624C842694F2A800475ED6 /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c.png; path = ../src/assets/stickers/c.png; sourceTree = "<group>"; };
+		E2624C852694F2A900475ED6 /* bb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bb.png; path = ../src/assets/stickers/bb.png; sourceTree = "<group>"; };
+		E2624C862694F2A900475ED6 /* k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = k.png; path = ../src/assets/stickers/k.png; sourceTree = "<group>"; };
+		E2624C872694F2A900475ED6 /* baby1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby1.png; path = ../src/assets/stickers/baby1.png; sourceTree = "<group>"; };
+		E2624C882694F2A900475ED6 /* baby16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby16.png; path = ../src/assets/stickers/baby16.png; sourceTree = "<group>"; };
+		E2624C892694F2A900475ED6 /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m.png; path = ../src/assets/stickers/m.png; sourceTree = "<group>"; };
+		E2624C8A2694F2A900475ED6 /* n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = n.png; path = ../src/assets/stickers/n.png; sourceTree = "<group>"; };
+		E2624C8B2694F2A900475ED6 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = o.png; path = ../src/assets/stickers/o.png; sourceTree = "<group>"; };
+		E2624C8C2694F2A900475ED6 /* q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = q.png; path = ../src/assets/stickers/q.png; sourceTree = "<group>"; };
+		E2624C8D2694F2A900475ED6 /* z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = z.png; path = ../src/assets/stickers/z.png; sourceTree = "<group>"; };
+		E2624C8E2694F2A900475ED6 /* baby11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby11.png; path = ../src/assets/stickers/baby11.png; sourceTree = "<group>"; };
+		E2624C8F2694F2A900475ED6 /* baby4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby4.png; path = ../src/assets/stickers/baby4.png; sourceTree = "<group>"; };
+		E2624C902694F2A900475ED6 /* v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = v.png; path = ../src/assets/stickers/v.png; sourceTree = "<group>"; };
+		E2624C912694F2A900475ED6 /* e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e.png; path = ../src/assets/stickers/e.png; sourceTree = "<group>"; };
+		E2624C922694F2A900475ED6 /* dd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dd.png; path = ../src/assets/stickers/dd.png; sourceTree = "<group>"; };
+		E2624C932694F2A900475ED6 /* u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = u.png; path = ../src/assets/stickers/u.png; sourceTree = "<group>"; };
+		E2624C942694F2A900475ED6 /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aa.png; path = ../src/assets/stickers/aa.png; sourceTree = "<group>"; };
+		E2624C952694F2A900475ED6 /* cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cc.png; path = ../src/assets/stickers/cc.png; sourceTree = "<group>"; };
+		E2624C962694F2A900475ED6 /* ee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ee.png; path = ../src/assets/stickers/ee.png; sourceTree = "<group>"; };
+		E2624C972694F2A900475ED6 /* p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = p.png; path = ../src/assets/stickers/p.png; sourceTree = "<group>"; };
+		E2624C982694F2A900475ED6 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../src/assets/stickers/x.png; sourceTree = "<group>"; };
+		E2624C992694F2A900475ED6 /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = d.png; path = ../src/assets/stickers/d.png; sourceTree = "<group>"; };
+		E2624C9A2694F2A900475ED6 /* y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = y.png; path = ../src/assets/stickers/y.png; sourceTree = "<group>"; };
+		E2624C9B2694F2A900475ED6 /* baby13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby13.png; path = ../src/assets/stickers/baby13.png; sourceTree = "<group>"; };
+		E2BA73AC26DBB945004EF3FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2BB7F912647FD38001B95BF /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		E2BB7F922647FD38001B95BF /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		E2BB7F932647FD38001B95BF /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		E2BB7F942647FD38001B95BF /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		E2BB7F952647FD38001B95BF /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		E2BB7F962647FD38001B95BF /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		E2BB7F972647FD38001B95BF /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		E2BB7F982647FD38001B95BF /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		E2BB7F992647FD38001B95BF /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		E2BB7F9A2647FD38001B95BF /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		E2BB7F9B2647FD38001B95BF /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		E2BB7F9C2647FD38001B95BF /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		E2BB7F9D2647FD38001B95BF /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		E2BB7F9E2647FD38001B95BF /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		E2BB7F9F2647FD38001B95BF /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		E2BB7FA02647FD38001B95BF /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		E3FC8BB6BC8343B3A7453669 /* Tajawal-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Black.ttf"; path = "../src/assets/fonts/Tajawal-Black.ttf"; sourceTree = "<group>"; };
+		E6CC41E065D5445B93545059 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		ED1146B18A01E88EBE00963D /* Pods-united_doctors_hospitalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-united_doctors_hospitalTests.release.xcconfig"; path = "Target Support Files/Pods-united_doctors_hospitalTests/Pods-united_doctors_hospitalTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EDA0C483B0CC425D86829D40 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Medium.ttf"; path = "../src/assets/fonts/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		F113F1D119CD460984E5143A /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		F1BFA4E82F1149CB8B9869A0 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../src/assets/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		F1D472BAC0294066BB1342E5 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		F4310BCC61A241F18C5758DB /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-MediumItalic.ttf"; path = "../src/assets/fonts/Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		F5A1FECAF3F44D46825898FF /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Bold.ttf"; path = "../src/assets/fonts/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		F64635DDAF3B4579B7F44EBE /* Tajawal-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-ExtraBold.ttf"; path = "../src/assets/fonts/Tajawal-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FA6F279E3AEF588EF159A25D /* libPods-united_doctors_hospitalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-united_doctors_hospitalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69010A3BA28978A7926C30BF /* libPods-united_doctors_hospital.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* united_doctors_hospitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* united_doctors_hospitalTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = united_doctors_hospitalTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* united_doctors_hospital */ = {
+			isa = PBXGroup;
+			children = (
+				E215934626CEFF3F00C7227F /* united_doctors_hospital.entitlements */,
+				E2BB7F902647FD38001B95BF /* Fonts */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = united_doctors_hospital;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				4E7DB795F3B2DF66D519582F /* libPods-united_doctors_hospital-tvOS.a */,
+				4A28CFF9C8E77FEFE8794256 /* libPods-united_doctors_hospital-tvOSTests.a */,
+				FA6F279E3AEF588EF159A25D /* libPods-united_doctors_hospitalTests.a */,
+				0CF96CA99F629EE8D8A1550D /* libPods-united_doctors_hospital.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A2A10FB35025042D27214D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2189B1E59550DC49988EED6D /* Pods-united_doctors_hospital.debug.xcconfig */,
+				B96E6F58FF0E2750B10C9B19 /* Pods-united_doctors_hospital.release.xcconfig */,
+				96D7F98A1B4015885D26987F /* Pods-united_doctors_hospital-tvOS.debug.xcconfig */,
+				024D31781944F78C3850BA74 /* Pods-united_doctors_hospital-tvOS.release.xcconfig */,
+				A14BFC7DA975D398856B9D35 /* Pods-united_doctors_hospital-tvOSTests.debug.xcconfig */,
+				5F0165E59FD1E6EC4D4DE457 /* Pods-united_doctors_hospital-tvOSTests.release.xcconfig */,
+				18C96CA8174756E267B79D9A /* Pods-united_doctors_hospitalTests.debug.xcconfig */,
+				ED1146B18A01E88EBE00963D /* Pods-united_doctors_hospitalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				E2BA73AC26DBB945004EF3FD /* GoogleService-Info.plist */,
+				52C73B16268C1C3C00999BE2 /* File.swift */,
+				13B07FAE1A68108700A75B9A /* united_doctors_hospital */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* united_doctors_hospitalTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				6A2A10FB35025042D27214D3 /* Pods */,
+				AA829642A4D748D1A9948409 /* Resources */,
+				52C73B15268C1C3C00999BE2 /* united_doctors_hospital-Bridging-Header.h */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* united_doctors_hospital.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA829642A4D748D1A9948409 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2624C942694F2A900475ED6 /* aa.png */,
+				E2624C872694F2A900475ED6 /* baby1.png */,
+				E2624C742694F2A800475ED6 /* baby2.png */,
+				E2624C7A2694F2A800475ED6 /* baby3.png */,
+				E2624C8F2694F2A900475ED6 /* baby4.png */,
+				E2624C7E2694F2A800475ED6 /* baby5.png */,
+				E2624C792694F2A800475ED6 /* baby6.png */,
+				E2624C832694F2A800475ED6 /* baby7.png */,
+				E2624C752694F2A800475ED6 /* baby8.jpg */,
+				E2624C8E2694F2A900475ED6 /* baby11.png */,
+				E2624C822694F2A800475ED6 /* baby12.png */,
+				E2624C9B2694F2A900475ED6 /* baby13.png */,
+				E2624C802694F2A800475ED6 /* baby14.png */,
+				E2624C7B2694F2A800475ED6 /* baby15.png */,
+				E2624C882694F2A900475ED6 /* baby16.png */,
+				E2624C852694F2A900475ED6 /* bb.png */,
+				E2624C842694F2A800475ED6 /* c.png */,
+				E2624C952694F2A900475ED6 /* cc.png */,
+				E2624C992694F2A900475ED6 /* d.png */,
+				E2624C922694F2A900475ED6 /* dd.png */,
+				E2624C912694F2A900475ED6 /* e.png */,
+				E2624C962694F2A900475ED6 /* ee.png */,
+				E2624C772694F2A800475ED6 /* i.png */,
+				E2624C812694F2A800475ED6 /* j.png */,
+				E2624C862694F2A900475ED6 /* k.png */,
+				E2624C7F2694F2A800475ED6 /* l.png */,
+				E2624C892694F2A900475ED6 /* m.png */,
+				E2624C8A2694F2A900475ED6 /* n.png */,
+				E2624C8B2694F2A900475ED6 /* o.png */,
+				E2624C972694F2A900475ED6 /* p.png */,
+				E2624C8C2694F2A900475ED6 /* q.png */,
+				E2624C762694F2A800475ED6 /* r.png */,
+				E2624C782694F2A800475ED6 /* s.png */,
+				E2624C7D2694F2A800475ED6 /* t.png */,
+				E2624C932694F2A900475ED6 /* u.png */,
+				E2624C902694F2A900475ED6 /* v.png */,
+				E2624C7C2694F2A800475ED6 /* w.png */,
+				E2624C982694F2A900475ED6 /* x.png */,
+				E2624C9A2694F2A900475ED6 /* y.png */,
+				E2624C8D2694F2A900475ED6 /* z.png */,
+				239E96D39D274982B2985A0C /* Almarai-Bold.ttf */,
+				D7960FFE6CB340BCB4479BED /* Almarai-ExtraBold.ttf */,
+				333F5483D6FB42C8BC94D7AA /* Almarai-Light.ttf */,
+				C037F1C1484640A2AAFF347C /* Almarai-Regular.ttf */,
+				F5A1FECAF3F44D46825898FF /* Quicksand-Bold.ttf */,
+				E241F51CDB2E4AA0A07ABDC4 /* Quicksand-Light.ttf */,
+				EDA0C483B0CC425D86829D40 /* Quicksand-Medium.ttf */,
+				62836CBAE0B24DA5AC5D3A3F /* Quicksand-Regular.ttf */,
+				2C602D25D176463A94451437 /* Quicksand-SemiBold.ttf */,
+				81DF6D28CB994B869A97218E /* Rubik-Black.ttf */,
+				57F2D8A2E5DC419F891EE99D /* Rubik-BlackItalic.ttf */,
+				47C80BF86A8744ED9CC8710D /* Rubik-Bold.ttf */,
+				7F282DEB169145A2BC92DE9D /* Rubik-BoldItalic.ttf */,
+				C479D966EB2644F391C6E2F5 /* Rubik-Italic.ttf */,
+				D35F55DA9DF54AEBA136CA4E /* Rubik-Light.ttf */,
+				11BE6D76E5964E98BE136BED /* Rubik-LightItalic.ttf */,
+				62DFCBBF2B254CE68DCBCA2C /* Rubik-Medium.ttf */,
+				F4310BCC61A241F18C5758DB /* Rubik-MediumItalic.ttf */,
+				F1BFA4E82F1149CB8B9869A0 /* Rubik-Regular.ttf */,
+				E3FC8BB6BC8343B3A7453669 /* Tajawal-Black.ttf */,
+				CEDB6836B40D4C1C9FEA70F2 /* Tajawal-Bold.ttf */,
+				F64635DDAF3B4579B7F44EBE /* Tajawal-ExtraBold.ttf */,
+				3F9C25F9E7B54527B778F7B1 /* Tajawal-ExtraLight.ttf */,
+				8085D2CE18AE487A9F3FA8E5 /* Tajawal-Light.ttf */,
+				C5BE09A742B2477FAF6A1BB3 /* Tajawal-Medium.ttf */,
+				3227B4DBBBD645999B33FF2C /* Tajawal-Regular.ttf */,
+				776846AE2F1E4CD681E83116 /* AntDesign.ttf */,
+				9E751E3B3F0B45CDB7BE9BD9 /* Entypo.ttf */,
+				AFC8310FB91D47738F74BD04 /* EvilIcons.ttf */,
+				590F9987732A46A8A3F9ACAD /* Feather.ttf */,
+				52901234BC8D43A09C9A5019 /* FontAwesome.ttf */,
+				397526151DE34CBFB9FCCA3F /* FontAwesome5_Brands.ttf */,
+				7DBC9E63A0BF4087A46FF65A /* FontAwesome5_Regular.ttf */,
+				70FB298E44204459BC7EAEBD /* FontAwesome5_Solid.ttf */,
+				A03926F917FD42A1A344EC86 /* Fontisto.ttf */,
+				34C09BCAB3D64C6FAA2912D4 /* Foundation.ttf */,
+				0E2AAB44B141462EB1B68964 /* Ionicons.ttf */,
+				9DB3F380B3774CF9AAFCB695 /* MaterialCommunityIcons.ttf */,
+				6001CCA26BB04A78AC7A078D /* MaterialIcons.ttf */,
+				6827AF1D991346D3987DE1E0 /* Octicons.ttf */,
+				E032F1AED83049E6AD255186 /* SimpleLineIcons.ttf */,
+				1C1EAF648D0944E2949CBD0A /* Zocial.ttf */,
+				DB2E252D2394493AA4A92A1B /* AntDesign.ttf */,
+				63EA38C812D944BD812BD780 /* Entypo.ttf */,
+				004699C73037470BAE241EAB /* EvilIcons.ttf */,
+				9F3E95C7BB09435F8B0DAC9A /* Feather.ttf */,
+				2B647CF3743C43D3AD8DE5A4 /* FontAwesome.ttf */,
+				F113F1D119CD460984E5143A /* FontAwesome5_Brands.ttf */,
+				227B25F43B154FCFBD4A23B2 /* FontAwesome5_Regular.ttf */,
+				F1D472BAC0294066BB1342E5 /* FontAwesome5_Solid.ttf */,
+				44A2E40E973D49E19A6233CE /* Fontisto.ttf */,
+				8D32E1E77FA54886AE6F4FCA /* Foundation.ttf */,
+				5314BE82ED01415CB0B8390E /* Ionicons.ttf */,
+				A41B0C9747BF4C9C93794D93 /* MaterialCommunityIcons.ttf */,
+				8B7FC305B1EA42938404EB58 /* MaterialIcons.ttf */,
+				1B304ECDE10B495B84201312 /* Octicons.ttf */,
+				618E3A2C35144B28B21FF846 /* Roboto_medium.ttf */,
+				C9293975F04445F682280161 /* Roboto.ttf */,
+				E6CC41E065D5445B93545059 /* rubicon-icon-font.ttf */,
+				9116641F5A814ACE99BEEF24 /* SimpleLineIcons.ttf */,
+				CFBEE1A1238C4574B89CE473 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E2BB7F902647FD38001B95BF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E2BB7F912647FD38001B95BF /* Fontisto.ttf */,
+				E2BB7F922647FD38001B95BF /* Octicons.ttf */,
+				E2BB7F932647FD38001B95BF /* Feather.ttf */,
+				E2BB7F942647FD38001B95BF /* Entypo.ttf */,
+				E2BB7F952647FD38001B95BF /* FontAwesome5_Brands.ttf */,
+				E2BB7F962647FD38001B95BF /* MaterialCommunityIcons.ttf */,
+				E2BB7F972647FD38001B95BF /* AntDesign.ttf */,
+				E2BB7F982647FD38001B95BF /* Foundation.ttf */,
+				E2BB7F992647FD38001B95BF /* Ionicons.ttf */,
+				E2BB7F9A2647FD38001B95BF /* FontAwesome5_Solid.ttf */,
+				E2BB7F9B2647FD38001B95BF /* FontAwesome5_Regular.ttf */,
+				E2BB7F9C2647FD38001B95BF /* FontAwesome.ttf */,
+				E2BB7F9D2647FD38001B95BF /* Zocial.ttf */,
+				E2BB7F9E2647FD38001B95BF /* EvilIcons.ttf */,
+				E2BB7F9F2647FD38001B95BF /* SimpleLineIcons.ttf */,
+				E2BB7FA02647FD38001B95BF /* MaterialIcons.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* united_doctors_hospital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "united_doctors_hospital" */;
+			buildPhases = (
+				2D2998B5E01C1B3FB5A2D26E /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				02E39FD896A7D76519CAD59C /* [CP] Copy Pods Resources */,
+				E754B40BA0EB226BA7AABE85 /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = united_doctors_hospital;
+			productName = united_doctors_hospital;
+			productReference = 13B07F961A680F5B00A75B9A /* united_doctors_hospital.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = V7W7JT9UJR;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "united_doctors_hospital" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* united_doctors_hospital */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				0869A730AAD14FF8A5179B32 /* Almarai-Bold.ttf in Resources */,
+				A90E15BE5B8F4B46920A501C /* Almarai-ExtraBold.ttf in Resources */,
+				227C46B167144D569C2CD4EC /* Almarai-Light.ttf in Resources */,
+				E2624CC22694F2A900475ED6 /* y.png in Resources */,
+				E2624CB82694F2A900475ED6 /* v.png in Resources */,
+				E2624C9D2694F2A900475ED6 /* baby8.jpg in Resources */,
+				E2624CB32694F2A900475ED6 /* o.png in Resources */,
+				703B2BAB61CB46A9B407C751 /* Almarai-Regular.ttf in Resources */,
+				74B1C738CADA4500AA556C7D /* Quicksand-Bold.ttf in Resources */,
+				08D637B131874027BC132B60 /* Quicksand-Light.ttf in Resources */,
+				E2624CA82694F2A900475ED6 /* baby14.png in Resources */,
+				E2624CB62694F2A900475ED6 /* baby11.png in Resources */,
+				96DC0FC0B481460FA1D3C386 /* Quicksand-Medium.ttf in Resources */,
+				E2BA73AD26DBB945004EF3FD /* GoogleService-Info.plist in Resources */,
+				651CA6D6280C4263AA90F3EB /* Quicksand-Regular.ttf in Resources */,
+				17FDD1113E5341A6B35AF01F /* Quicksand-SemiBold.ttf in Resources */,
+				5B2C0C3202024F2D89774630 /* Rubik-Black.ttf in Resources */,
+				E2624CA32694F2A900475ED6 /* baby15.png in Resources */,
+				B81457404FE947559760E172 /* Rubik-BlackItalic.ttf in Resources */,
+				B994C6587B93486691F592A4 /* Rubik-Bold.ttf in Resources */,
+				7ABE840B520C4A61B27E01A8 /* Rubik-BoldItalic.ttf in Resources */,
+				E2624CB12694F2A900475ED6 /* m.png in Resources */,
+				4B7F10D3272A445F8D67FF28 /* Rubik-Italic.ttf in Resources */,
+				E2624CA92694F2A900475ED6 /* j.png in Resources */,
+				E7F90FB023584F989C778C4D /* Rubik-Light.ttf in Resources */,
+				9A569F77FD5B4309B2CDA8AB /* Rubik-LightItalic.ttf in Resources */,
+				E2624CAE2694F2A900475ED6 /* k.png in Resources */,
+				E2624CB22694F2A900475ED6 /* n.png in Resources */,
+				7A7D328CA86345C39D3027CC /* Rubik-Medium.ttf in Resources */,
+				118679155CBD4148B2E066F0 /* Rubik-MediumItalic.ttf in Resources */,
+				EE06DB48E2E74EDAA9914330 /* Rubik-Regular.ttf in Resources */,
+				6CFA37BBAA2144609DFF0529 /* Tajawal-Black.ttf in Resources */,
+				E2624C9C2694F2A900475ED6 /* baby2.png in Resources */,
+				BF63BC25002345459D0C6B3C /* Tajawal-Bold.ttf in Resources */,
+				4BC485D0206946AAB8B17207 /* Tajawal-ExtraBold.ttf in Resources */,
+				E2624CAA2694F2A900475ED6 /* baby12.png in Resources */,
+				9945ECEF9C8F4DEE83E5F389 /* Tajawal-ExtraLight.ttf in Resources */,
+				E2624CB42694F2A900475ED6 /* q.png in Resources */,
+				1A9E5860680B46B88457C219 /* Tajawal-Light.ttf in Resources */,
+				E2624CBD2694F2A900475ED6 /* cc.png in Resources */,
+				E2624CB92694F2A900475ED6 /* e.png in Resources */,
+				7B3583C2F4C449EB991EC3D6 /* Tajawal-Medium.ttf in Resources */,
+				8938513235544EDFA771A676 /* Tajawal-Regular.ttf in Resources */,
+				E2624CB02694F2A900475ED6 /* baby16.png in Resources */,
+				E2624CBC2694F2A900475ED6 /* aa.png in Resources */,
+				E2624CBA2694F2A900475ED6 /* dd.png in Resources */,
+				E2624CA62694F2A900475ED6 /* baby5.png in Resources */,
+				E2624CC02694F2A900475ED6 /* x.png in Resources */,
+				E2624CC12694F2A900475ED6 /* d.png in Resources */,
+				E2624CA52694F2A900475ED6 /* t.png in Resources */,
+				E2624CBB2694F2A900475ED6 /* u.png in Resources */,
+				E2624CA12694F2A900475ED6 /* baby6.png in Resources */,
+				E2624CAF2694F2A900475ED6 /* baby1.png in Resources */,
+				E2624CBE2694F2A900475ED6 /* ee.png in Resources */,
+				E2624CA02694F2A900475ED6 /* s.png in Resources */,
+				E2624CAD2694F2A900475ED6 /* bb.png in Resources */,
+				E2624C9F2694F2A900475ED6 /* i.png in Resources */,
+				E2624CBF2694F2A900475ED6 /* p.png in Resources */,
+				E2624CB72694F2A900475ED6 /* baby4.png in Resources */,
+				E2624CAC2694F2A900475ED6 /* c.png in Resources */,
+				E2624CAB2694F2A900475ED6 /* baby7.png in Resources */,
+				E2624C9E2694F2A900475ED6 /* r.png in Resources */,
+				E2624CB52694F2A900475ED6 /* z.png in Resources */,
+				E2624CA42694F2A900475ED6 /* w.png in Resources */,
+				E2624CA22694F2A900475ED6 /* baby3.png in Resources */,
+				E2624CA72694F2A900475ED6 /* l.png in Resources */,
+				E2624CC32694F2A900475ED6 /* baby13.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		02E39FD896A7D76519CAD59C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-united_doctors_hospital/Pods-united_doctors_hospital-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_ROOT}/iOSPhotoEditor/Photo Editor/Photo Editor/Base.lproj/LaunchScreen.storyboard",
+				"${PODS_ROOT}/iOSPhotoEditor/Photo Editor/Photo Editor/ColorCollectionViewCell.xib",
+				"${PODS_ROOT}/iOSPhotoEditor/Photo Editor/Photo Editor/EmojiCollectionViewCell.xib",
+				"${PODS_ROOT}/iOSPhotoEditor/Photo Editor/Photo Editor/icomoon.ttf",
+				"${PODS_ROOT}/iOSPhotoEditor/Photo Editor/Photo Editor/LaunchScreen.storyboard",
+				"${PODS_ROOT}/iOSPhotoEditor/Photo Editor/Photo Editor/PhotoCropEditorBorder.png",
+				"${PODS_ROOT}/iOSPhotoEditor/Photo Editor/Photo Editor/PhotoCropEditorBorder@2x.png",
+				"${PODS_ROOT}/iOSPhotoEditor/Photo Editor/Photo Editor/PhotoCropEditorBorder@3x.png",
+				"${PODS_ROOT}/iOSPhotoEditor/Photo Editor/Photo Editor/PhotoEditorViewController.xib",
+				"${PODS_ROOT}/iOSPhotoEditor/Photo Editor/Photo Editor/StickerCollectionViewCell.xib",
+				"${PODS_ROOT}/iOSPhotoEditor/Photo Editor/Photo Editor/StickersViewController.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LaunchScreen.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorCollectionViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EmojiCollectionViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icomoon.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PhotoCropEditorBorder.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PhotoCropEditorBorder@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PhotoCropEditorBorder@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PhotoEditorViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StickerCollectionViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StickersViewController.nib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-united_doctors_hospital/Pods-united_doctors_hospital-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D2998B5E01C1B3FB5A2D26E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-united_doctors_hospital-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E754B40BA0EB226BA7AABE85 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				52C73B17268C1C3C00999BE2 /* File.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = united_doctors_hospital;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2189B1E59550DC49988EED6D /* Pods-united_doctors_hospital.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = united_doctors_hospital/united_doctors_hospital.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = V7W7JT9UJR;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = united_doctors_hospital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.united-doctors-hospital-udh";
+				PRODUCT_NAME = united_doctors_hospital;
+				SWIFT_OBJC_BRIDGING_HEADER = "united_doctors_hospital-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96E6F58FF0E2750B10C9B19 /* Pods-united_doctors_hospital.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = united_doctors_hospital/united_doctors_hospital.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7W7JT9UJR;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = united_doctors_hospital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.united-doctors-hospital-udh";
+				PRODUCT_NAME = united_doctors_hospital;
+				SWIFT_OBJC_BRIDGING_HEADER = "united_doctors_hospital-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "united_doctors_hospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "united_doctors_hospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

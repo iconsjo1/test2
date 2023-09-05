@@ -1,0 +1,17 @@
+export const loginTranslations = {
+  language: 'العربية',
+  login: 'Login',
+  id: 'ID or Iqama',
+  idPlaceholder: 'Enter your ID',
+  password: 'Password',
+  passwordPlaceholder: 'Enter your password',
+  forgotPassword: 'Forgot Password ?',
+  registerText: `Don't Have an Account ?`,
+  signUp: 'Sign Up',
+  idErrorMsg: 'Id or Iqama is required',
+  passwordErrorMsg: 'Password is required',
+  loginError: 'ID or Password maybe wrong. Please, try again',
+  successLogin: 'Logged in successfully',
+  successForgotPass: 'We sent you a passcode',
+  usrNotFound: 'User not found',
+};

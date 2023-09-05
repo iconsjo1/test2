@@ -1,0 +1,182 @@
+import {StyleSheet, I18nManager} from 'react-native';
+import {
+  WP,
+  colors,
+  fontFamilies,
+  lineHeights,
+  shadows,
+} from '../../../../services';
+import {smallScreens} from '../../../../services/utilities/responsive';
+
+export default () =>
+  StyleSheet.create({
+    scrollContainer: {
+      width: WP('100'),
+    },
+    scrollContainerInner: {
+      width: WP('100'),
+      top: smallScreens ? -10 : 0,
+    },
+    headerContainer: {
+      width: WP('100'),
+      backgroundColor: colors.whiteBg,
+      borderBottomColor: colors.lightGrey,
+      borderBottomWidth: 1,
+      zIndex: 3,
+    },
+    header: {
+      width: WP('100'),
+      padding: 10,
+      color: colors.skyBlue,
+      textAlign: 'center',
+      fontSize: 18,
+      fontFamily: fontFamilies('boldTextHeader'),
+    },
+    newsContainer: {
+      width: WP('100'),
+    },
+    newsListItem: {
+      width: WP('100'),
+      padding: 10,
+    },
+    pagerStyle: {
+      width: WP('100'),
+      overflow: 'visible',
+    },
+    imageStyle: {
+      width: '100%',
+      backgroundColor: colors.lightGrey,
+      borderRadius: 10,
+      overflow: 'hidden',
+      height: WP('30'),
+    },
+    imageLabel: {
+      textAlign: 'left',
+      paddingHorizontal: 20,
+      paddingVertical: 5,
+      backgroundColor: colors.skyBlue,
+      borderTopRightRadius: I18nManager.isRTL ? 0 : 10,
+      borderBottomRightRadius: I18nManager.isRTL ? 0 : 10,
+      borderTopLeftRadius: I18nManager.isRTL ? 10 : 0,
+      borderBottomLeftRadius: I18nManager.isRTL ? 10 : 0,
+      overflow: 'hidden',
+      color: colors.whiteAbsolute,
+      marginTop: 15,
+      fontFamily: fontFamilies('semiboldText'),
+    },
+    headline: {
+      marginTop: 10,
+      textAlign: 'left',
+    },
+    smallDesc: {
+      marginTop: 10,
+      textAlign: 'left',
+    },
+    newsTopBar: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      paddingHorizontal: 10,
+      alignItems: 'center',
+    },
+    newsText: {
+      fontFamily: fontFamilies('normalTextHeader'),
+      fontSize: 16,
+      textAlign: 'left',
+    },
+    seemoreText: {
+      color: colors.primary,
+    },
+    dotsContainer: {
+      alignItems: 'center',
+      width: '100%',
+      justifyContent: 'center',
+      height: 30,
+    },
+    upcomingContainer: {
+      // position: 'absolute',
+      left: 0,
+      zIndex: 10,
+      width: WP('100'),
+      overflow: 'visible',
+    },
+    upcomingShadowContainer: {
+      // width: '95%',
+      width: '100%',
+      backgroundColor: colors.extraLightGrey,
+      padding: 10,
+      flexDirection: 'row',
+      alignSelf: 'center',
+      borderRadius: 10,
+      borderColor: colors.mediumLightGrey,
+      borderWidth: 0.5,
+    },
+    upComignImage: {
+      width: WP('15'),
+      height: WP('15'),
+      maxWidth: 100,
+      maxHeight: 100,
+      borderRadius: 10,
+      overflow: 'hidden',
+      backgroundColor: colors.white,
+    },
+    upcomingText: {
+      flex: 1,
+      paddingLeft: 10,
+      alignItems: 'flex-start',
+    },
+    upcomingTextLight: {
+      color: colors.mediumGrey,
+      paddingLeft: 10,
+      lineHeight: lineHeights('small'),
+    },
+    modalContent: {
+      width: WP('85'),
+      alignSelf: 'center',
+      alignItems: 'center',
+      padding: 20,
+      backgroundColor: colors.white,
+      borderRadius: 10,
+    },
+    hospitalIcon: {
+      width: WP('20'),
+      height: WP('20'),
+      marginVertical: 20,
+      alignSelf: 'center',
+    },
+    mobileModalHeader: {
+      color: colors.golden,
+      fontSize: 17,
+      width: '100%',
+      textAlign: 'center',
+    },
+    mobileModalInput: {
+      color: colors.darkGrey,
+      width: '100%',
+      textAlign: 'left',
+    },
+    bellIcon: {
+      width: 30,
+      height: 30,
+      borderRadius: 5,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: colors.red,
+    },
+    authActions: {
+      paddingVertical: smallScreens ? 5 : 10,
+      paddingBottom: 10,
+      paddingHorizontal: smallScreens ? 50 : 30,
+      ...shadows.lightShadowGreyLowSpread,
+      elevation: 10,
+      zIndex: 1000,
+      backgroundColor: colors.white,
+    },
+    intro: {
+      marginVertical: smallScreens ? 5 : 10,
+      color: colors.grey,
+      fontFamily: fontFamilies('semiboldText'),
+      textAlign: 'center',
+      fontSize: smallScreens ? 12 : 14,
+      lineHeight: smallScreens ? 20 : 25,
+    },
+  });

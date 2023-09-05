@@ -1,0 +1,253 @@
+{
+    "Count": 31,
+    "Doctor": [
+        {
+            "CLINC_ANAME": "د. محمد طعمة",
+            "CLINC_CODE": "OB43    ",
+            "CLINC_ENAME": "DR. MOHAMAD TEMA",
+            "DOC_CODE": "OB43      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 5
+        },
+        {
+            "CLINC_ANAME": "د. اسامة باجوة",
+            "CLINC_CODE": "OB39    ",
+            "CLINC_ENAME": "DR. OSAMA BAJOUH",
+            "DOC_CODE": "OB39      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 10
+        },
+        {
+            "CLINC_ANAME": "د. أنس مرزوقي",
+            "CLINC_CODE": "OB45    ",
+            "CLINC_ENAME": "DR. ANAS MARZOUQI",
+            "DOC_CODE": "OB45      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 15
+        },
+        {
+            "CLINC_ANAME": "د. سعيد محمد مباشر",
+            "CLINC_CODE": "OB70    ",
+            "CLINC_ENAME": "DR SAEED MUBASHER",
+            "DOC_CODE": "OB70      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 30
+        },
+        {
+            "CLINC_ANAME": "د. فاطمه النمر",
+            "CLINC_CODE": "OB32    ",
+            "CLINC_ENAME": "DR. FATMA ELNEMR",
+            "DOC_CODE": "OB32      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 35
+        },
+        {
+            "CLINC_ANAME": "د. ابتسام مصطفى",
+            "CLINC_CODE": "OB69    ",
+            "CLINC_ENAME": "DR. EBTESAM MOSTAFA",
+            "DOC_CODE": "OB69      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 40
+        },
+        {
+            "CLINC_ANAME": "د.امل حنفي",
+            "CLINC_CODE": "OB79    ",
+            "CLINC_ENAME": "DR. AMAL HANAFY",
+            "DOC_CODE": "OB79      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 42
+        },
+        {
+            "CLINC_ANAME": "د. مجد أديب",
+            "CLINC_CODE": "OB33    ",
+            "CLINC_ENAME": "DR. MAJD ADEEB",
+            "DOC_CODE": "OB33      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 45
+        },
+        {
+            "CLINC_ANAME": "د. ريم محلي",
+            "CLINC_CODE": "OB35    ",
+            "CLINC_ENAME": "DR. REEM MAHALI",
+            "DOC_CODE": "OB35      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 49
+        },
+        {
+            "CLINC_ANAME": "د. هناء عبدالمقصود",
+            "CLINC_CODE": "OB83    ",
+            "CLINC_ENAME": "DR. HANAA ABDELMAKSOUD",
+            "DOC_CODE": "OB83      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 50
+        },
+        {
+            "CLINC_ANAME": "د ايمان الخولي",
+            "CLINC_CODE": "OB81    ",
+            "CLINC_ENAME": "DR. EMAN ALKHOLY",
+            "DOC_CODE": "OB81      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 51
+        },
+        {
+            "CLINC_ANAME": "د. احمد رضوان",
+            "CLINC_CODE": "OB76    ",
+            "CLINC_ENAME": "DR. AHMED RADWAN",
+            "DOC_CODE": "OB76      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 53
+        },
+        {
+            "CLINC_ANAME": "د. هبه يونس",
+            "CLINC_CODE": "OB41    ",
+            "CLINC_ENAME": "DR. HEBA YOUNES",
+            "DOC_CODE": "OB41      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 54
+        },
+        {
+            "CLINC_ANAME": "د. ايمان حسين",
+            "CLINC_CODE": "OB46    ",
+            "CLINC_ENAME": "DR. EMAN HUSSIN",
+            "DOC_CODE": "OB46      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 55
+        },
+        {
+            "CLINC_ANAME": "د. سوسن السعدي",
+            "CLINC_CODE": "OB71    ",
+            "CLINC_ENAME": "DR. SAWSAN ALSAADI",
+            "DOC_CODE": "OB71      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 57
+        },
+        {
+            "CLINC_ANAME": "د. هدى سعد زغلول",
+            "CLINC_CODE": "OB38    ",
+            "CLINC_ENAME": "DR. HODA SAAD ZAGHLOUL",
+            "DOC_CODE": "OB38      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 62
+        },
+        {
+            "CLINC_ANAME": "د. حنان القفاص",
+            "CLINC_CODE": "OB77    ",
+            "CLINC_ENAME": "DR. HANAN ALKAFFAS",
+            "DOC_CODE": "OB77      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 63
+        },
+        {
+            "CLINC_ANAME": "د. أمل صفوت",
+            "CLINC_CODE": "OB26    ",
+            "CLINC_ENAME": "DR. AML SAFWAT",
+            "DOC_CODE": "OB26      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 65
+        },
+        {
+            "CLINC_ANAME": "د. إيناس جمال",
+            "CLINC_CODE": "OB64    ",
+            "CLINC_ENAME": "DR. ENAS JAMAL",
+            "DOC_CODE": "OB64      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 70
+        },
+        {
+            "CLINC_ANAME": "د. أمل أومري",
+            "CLINC_CODE": "OB68    ",
+            "CLINC_ENAME": "DR. AMAL OMRI",
+            "DOC_CODE": "OB68      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 75
+        },
+        {
+            "CLINC_ANAME": "د. هدى عصمت",
+            "CLINC_CODE": "OB67    ",
+            "CLINC_ENAME": "DR. HODA ESMAT",
+            "DOC_CODE": "OB67      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 80
+        },
+        {
+            "CLINC_ANAME": "د. ريهام عادل",
+            "CLINC_CODE": "OB66    ",
+            "CLINC_ENAME": "DR. REHAM ADEL",
+            "DOC_CODE": "OB66      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 85
+        },
+        {
+            "CLINC_ANAME": "د. هبة الله احمد",
+            "CLINC_CODE": "OB44    ",
+            "CLINC_ENAME": "DR. HEBATALLAH AHMED",
+            "DOC_CODE": "OB44      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 90
+        },
+        {
+            "CLINC_ANAME": "د. سمر وهبه",
+            "CLINC_CODE": "OB65    ",
+            "CLINC_ENAME": "DR. SAMAR WAHBA",
+            "DOC_CODE": "OB65      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 103
+        },
+        {
+            "CLINC_ANAME": "د. سدره الشيخ",
+            "CLINC_CODE": "OB48    ",
+            "CLINC_ENAME": "DR. SEDRA ELSHEIKH",
+            "DOC_CODE": "OB48      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 109
+        },
+        {
+            "CLINC_ANAME": "د.هدي مجاهد",
+            "CLINC_CODE": "OB73    ",
+            "CLINC_ENAME": "DR.HUDA MOGAHED",
+            "DOC_CODE": "OB73      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 110
+        },
+        {
+            "CLINC_ANAME": "د. منال رشدي علي",
+            "CLINC_CODE": "OB-16   ",
+            "CLINC_ENAME": "DR. MANAL ROSHDI",
+            "DOC_CODE": "OB-16     ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 114
+        },
+        {
+            "CLINC_ANAME": "د. فاطمه الزهراء",
+            "CLINC_CODE": "OB82    ",
+            "CLINC_ENAME": "DR FATMA ELZHRA",
+            "DOC_CODE": "OB82      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 115
+        },
+        {
+            "CLINC_ANAME": "د. هاجر صلاح",
+            "CLINC_CODE": "OB80    ",
+            "CLINC_ENAME": "DR. HAGER SALAH",
+            "DOC_CODE": "OB80      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 119
+        },
+        {
+            "CLINC_ANAME": "د. هبة فؤاد",
+            "CLINC_CODE": "OB14    ",
+            "CLINC_ENAME": "DR. HEBA FOUAD",
+            "DOC_CODE": "OB14      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 120
+        },
+        {
+            "CLINC_ANAME": "د. ناهد فاروق",
+            "CLINC_CODE": "OB27    ",
+            "CLINC_ENAME": "DR. NAHID FAROUK",
+            "DOC_CODE": "OB27      ",
+            "SPEC_CODE": "OB      ",
+            "WEB_SER": 125
+        }
+    ]
+}
